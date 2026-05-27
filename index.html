@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Аренда спецтехники в Москве и Московской области. Экскаватор, автокран, манипулятор, самосвал, автовышка. Собственный парк. Подача в день обращения. Работаем 24/7. С НДС и без НДС." />
+  <meta name="keywords" content="аренда спецтехники москва, аренда экскаватора, аренда автокрана, аренда манипулятора, спецтехника московская область" />
+  <title>Аренда спецтехники в Москве и МО — от 2 200 руб/час | СпецТехМосква</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="/" class="header__logo">
+      <span class="logo-icon"><i class="fas fa-truck-pickup"></i></span>
+      <span class="logo-text">СпецТех<span>Москва</span></span>
+    </a>
+    <nav class="header__nav" id="mainNav">
+      <a href="#catalog">Каталог</a>
+      <a href="#prices">Цены</a>
+      <a href="#how">Как работаем</a>
+      <a href="#about">О компании</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header__actions">
+      <a href="tel:+74951234567" class="header__phone">
+        <i class="fas fa-phone"></i>
+        +7 (495) 123-45-67
+      </a>
+      <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Оставить заявку</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile nav overlay -->
+<div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+<nav class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav__close" id="mobileNavClose"><i class="fas fa-times"></i></button>
+  <a href="#catalog" class="mobile-nav__link">Каталог техники</a>
+  <a href="#prices" class="mobile-nav__link">Цены</a>
+  <a href="#how" class="mobile-nav__link">Как работаем</a>
+  <a href="#about" class="mobile-nav__link">О компании</a>
+  <a href="#faq" class="mobile-nav__link">FAQ</a>
+  <a href="#contacts" class="mobile-nav__link">Контакты</a>
+  <a href="tel:+74951234567" class="mobile-nav__phone"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+  <a href="#callback-form" class="btn btn--accent mobile-nav__cta scroll-to">Оставить заявку</a>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="hero">
+  <div class="hero__bg"></div>
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <div class="hero__badge"><i class="fas fa-circle-check"></i> Работаем с 2012 года</div>
+      <h1 class="hero__title">Аренда спецтехники<br>в Москве и Московской области</h1>
+      <p class="hero__sub">Подадим технику на объект в день обращения.<br>Собственный парк. Операторы с опытом. Работаем 24/7. С НДС и без НДС.</p>
+      <ul class="hero__features">
+        <li><i class="fas fa-check"></i> Собственный автопарк — без посредников</li>
+        <li><i class="fas fa-check"></i> Подача по Москве от 2 часов</li>
+        <li><i class="fas fa-check"></i> Техника с опытным оператором</li>
+        <li><i class="fas fa-check"></i> Договор и закрывающие документы</li>
+      </ul>
+      <div class="hero__cta-group">
+        <a href="#catalog" class="btn btn--accent scroll-to">Подобрать технику</a>
+        <a href="#prices" class="btn btn--outline scroll-to">Рассчитать стоимость</a>
+        <a href="tel:+74951234567" class="btn btn--call"><i class="fas fa-phone"></i> Позвонить</a>
+      </div>
+    </div>
+
+    <div class="hero__form-wrap" id="callback-form">
+      <div class="hero__form">
+        <div class="hero__form-header">
+          <h2>Оставьте заявку</h2>
+          <p>Перезвоним за <strong>5 минут</strong></p>
+        </div>
+        <form class="form" id="heroForm" novalidate>
+          <div class="form__group">
+            <label>Ваше имя</label>
+            <input type="text" name="name" placeholder="Иван Иванов" required />
+          </div>
+          <div class="form__group">
+            <label>Телефон <span class="req">*</span></label>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required />
+          </div>
+          <div class="form__group">
+            <label>Тип техники</label>
+            <select name="tech">
+              <option value="">— Выберите технику —</option>
+              <option>Экскаватор гусеничный</option>
+              <option>Экскаватор-погрузчик</option>
+              <option>Мини-экскаватор</option>
+              <option>Автокран</option>
+              <option>Манипулятор (КМУ)</option>
+              <option>Самосвал</option>
+              <option>Фронтальный погрузчик</option>
+              <option>Бульдозер</option>
+              <option>Автовышка (АГП)</option>
+              <option>Ямобур</option>
+              <option>Трал</option>
+              <option>Илосос</option>
+              <option>Другое</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label>Адрес объекта / район</label>
+            <input type="text" name="address" placeholder="Москва, Южный округ" />
+          </div>
+          <button type="submit" class="btn btn--accent btn--full">
+            <i class="fas fa-paper-plane"></i> Отправить заявку — бесплатно
+          </button>
+          <p class="form__agree">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+          <ul class="form__guarantees">
+            <li><i class="fas fa-clock"></i> Перезвоним за 5 минут</li>
+            <li><i class="fas fa-tag"></i> Назовём цену без обязательств</li>
+            <li><i class="fas fa-moon"></i> Работаем 24/7</li>
+          </ul>
+        </form>
+        <div class="form__success" id="formSuccess" style="display:none">
+          <i class="fas fa-circle-check"></i>
+          <h3>Заявка принята!</h3>
+          <p>Перезвоним вам в течение 5 минут.<br>Если срочно — звоните сами:</p>
+          <a href="tel:+74951234567" class="btn btn--accent">+7 (495) 123-45-67</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRUST BAR ========== -->
+<div class="trust-bar">
+  <div class="container trust-bar__inner">
+    <div class="trust-bar__item">
+      <span class="trust-bar__num">12+</span>
+      <span class="trust-bar__label">лет на рынке</span>
+    </div>
+    <div class="trust-bar__item">
+      <span class="trust-bar__num">35+</span>
+      <span class="trust-bar__label">единиц в парке</span>
+    </div>
+    <div class="trust-bar__item">
+      <span class="trust-bar__num">1 200+</span>
+      <span class="trust-bar__label">объектов сдано</span>
+    </div>
+    <div class="trust-bar__item">
+      <span class="trust-bar__num">24/7</span>
+      <span class="trust-bar__label">режим работы</span>
+    </div>
+  </div>
+</div>
+
+<!-- ========== CATALOG ========== -->
+<section class="catalog section" id="catalog">
+  <div class="container">
+    <div class="section-head">
+      <h2>Каталог спецтехники в аренду</h2>
+      <p>Вся техника в собственности. Документы, ТО, страховка — в порядке.</p>
+    </div>
+
+    <div class="catalog__filters" id="catalogFilters">
+      <button class="filter-btn active" data-filter="all">Все</button>
+      <button class="filter-btn" data-filter="earth">Земляные работы</button>
+      <button class="filter-btn" data-filter="lift">Подъём грузов</button>
+      <button class="filter-btn" data-filter="transport">Перевозка</button>
+      <button class="filter-btn" data-filter="height">Высотные работы</button>
+      <button class="filter-btn" data-filter="drill">Бурение и спецработы</button>
+    </div>
+
+    <div class="catalog__grid" id="catalogGrid">
+
+      <!-- Экскаватор гусеничный -->
+      <div class="card" data-category="earth">
+        <div class="card__img" style="background: linear-gradient(135deg, #1B3A5C, #2D6A9F);">
+          <i class="fas fa-tractor"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Экскаватор гусеничный</h3>
+          <p class="card__desc">Копание котлованов, траншей, фундаментов. Объём ковша: 0.6–1.2 м³.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>3 500 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 8 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="pages/ekskavator.html" class="btn btn--accent btn--sm">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Экскаватор-погрузчик -->
+      <div class="card" data-category="earth">
+        <div class="card__img" style="background: linear-gradient(135deg, #1B5C3A, #2D9F6A);">
+          <i class="fas fa-tractor"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Экскаватор-погрузчик</h3>
+          <p class="card__desc">Погрузка, копание, планировка. Универсальная машина для малых объёмов.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>2 800 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Мини-экскаватор -->
+      <div class="card" data-category="earth">
+        <div class="card__img" style="background: linear-gradient(135deg, #3A1B5C, #6A2D9F);">
+          <i class="fas fa-tractor"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Мини-экскаватор</h3>
+          <p class="card__desc">Работа в стеснённых условиях, дворах, подвалах. Масса от 1.5 до 5 тонн.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>2 200 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Автокран -->
+      <div class="card" data-category="lift">
+        <div class="card__img" style="background: linear-gradient(135deg, #5C3A1B, #9F6A2D);">
+          <i class="fas fa-arrows-up-down"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Автокран</h3>
+          <p class="card__desc">Подъём конструкций, монтажные работы. Грузоподъёмность: 16–50 тонн.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>4 500 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 8 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С машинистом</span>
+          </div>
+          <div class="card__actions">
+            <a href="pages/avtokran.html" class="btn btn--accent btn--sm">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Манипулятор -->
+      <div class="card" data-category="lift">
+        <div class="card__img" style="background: linear-gradient(135deg, #1B4A5C, #2D7A9F);">
+          <i class="fas fa-truck-ramp-box"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Манипулятор (КМУ)</h3>
+          <p class="card__desc">Погрузка и разгрузка с доставкой. Стрела до 21 м, г/п до 10 тонн.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>3 200 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="pages/manipulyator.html" class="btn btn--accent btn--sm">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Самосвал -->
+      <div class="card" data-category="transport">
+        <div class="card__img" style="background: linear-gradient(135deg, #5C1B1B, #9F2D2D);">
+          <i class="fas fa-truck"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Самосвал</h3>
+          <p class="card__desc">Вывоз грунта, мусора, доставка щебня и песка. Кузов 10–20 м³.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>2 500 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С водителем</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Погрузчик -->
+      <div class="card" data-category="earth lift">
+        <div class="card__img" style="background: linear-gradient(135deg, #1B5C4A, #2D9F80);">
+          <i class="fas fa-forklift"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Фронтальный погрузчик</h3>
+          <p class="card__desc">Погрузка сыпучих, планировка, уборка территории.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>2 800 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Бульдозер -->
+      <div class="card" data-category="earth">
+        <div class="card__img" style="background: linear-gradient(135deg, #4A1B5C, #802D9F);">
+          <i class="fas fa-road"></i>
+          <span class="card__badge card__badge--busy">Уточнить наличие</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Бульдозер</h3>
+          <p class="card__desc">Планировка, срезка грунта, рекультивация. Мощность: 130–300 л.с.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>4 000 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 8 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Автовышка -->
+      <div class="card" data-category="height">
+        <div class="card__img" style="background: linear-gradient(135deg, #1B3A5C, #2D6A9F);">
+          <i class="fas fa-person-digging"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Автовышка (АГП)</h3>
+          <p class="card__desc">Высотные работы, монтаж, обслуживание. Высота подъёма: 18–50 м.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>2 500 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ямобур -->
+      <div class="card" data-category="drill">
+        <div class="card__img" style="background: linear-gradient(135deg, #3A5C1B, #6A9F2D);">
+          <i class="fas fa-circle-dot"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Ямобур</h3>
+          <p class="card__desc">Бурение под столбы, сваи, заборы. Диаметр бурения: 200–800 мм.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>2 500 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С оператором</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Трал -->
+      <div class="card" data-category="transport">
+        <div class="card__img" style="background: linear-gradient(135deg, #5C4A1B, #9F7A2D);">
+          <i class="fas fa-truck-moving"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Трал (тяжеловоз)</h3>
+          <p class="card__desc">Перевозка негабаритных грузов и техники. Г/п: 20–60 тонн.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> Цена по запросу</span>
+            <span><i class="fas fa-route"></i> Расчёт по маршруту</span>
+            <span><i class="fas fa-user-hard-hat"></i> С водителем</span>
+          </div>
+          <div class="card__actions">
+            <a href="tel:+74951234567" class="btn btn--accent btn--sm">Запросить цену</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Илосос -->
+      <div class="card" data-category="drill">
+        <div class="card__img" style="background: linear-gradient(135deg, #1B5C5C, #2D9F9F);">
+          <i class="fas fa-water"></i>
+          <span class="card__badge card__badge--avail">Есть в наличии</span>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Илосос (вакуумная машина)</h3>
+          <p class="card__desc">Откачка ила, грязи, жидких отходов. Объём цистерны: 8–12 м³.</p>
+          <div class="card__specs">
+            <span><i class="fas fa-clock"></i> от <strong>3 000 руб/ч</strong></span>
+            <span><i class="fas fa-calendar-day"></i> Мин. заказ: 4 ч</span>
+            <span><i class="fas fa-user-hard-hat"></i> С водителем</span>
+          </div>
+          <div class="card__actions">
+            <a href="#callback-form" class="btn btn--accent btn--sm scroll-to">Заказать</a>
+            <a href="#callback-form" class="btn btn--outline btn--sm scroll-to">Рассчитать</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /catalog__grid -->
+
+    <div class="catalog__bottom">
+      <p>Не нашли нужную технику?</p>
+      <div>
+        <a href="tel:+74951234567" class="btn btn--accent">Позвонить</a>
+        <a href="https://wa.me/74951234567" class="btn btn--whatsapp" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICES ========== -->
+<section class="prices section section--gray" id="prices">
+  <div class="container">
+    <div class="section-head">
+      <h2>Стоимость аренды спецтехники</h2>
+      <p>Цены фиксируются в договоре. Без скрытых доплат.</p>
+    </div>
+
+    <div class="prices__table-wrap">
+      <table class="prices__table">
+        <thead>
+          <tr>
+            <th>Техника</th>
+            <th>Почасовая</th>
+            <th>Смена (8 ч)</th>
+            <th>Мин. заказ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fas fa-tractor"></i> Мини-экскаватор</td>
+            <td><strong>от 2 200 руб</strong></td>
+            <td>от 15 000 руб</td>
+            <td>4 часа</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-tractor"></i> Экскаватор-погрузчик</td>
+            <td><strong>от 2 800 руб</strong></td>
+            <td>от 19 000 руб</td>
+            <td>4 часа</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-tractor"></i> Экскаватор гусеничный</td>
+            <td><strong>от 3 500 руб</strong></td>
+            <td>от 24 000 руб</td>
+            <td>8 часов</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-arrows-up-down"></i> Автокран 16–25 т</td>
+            <td><strong>от 4 500 руб</strong></td>
+            <td>от 30 000 руб</td>
+            <td>8 часов</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-truck-ramp-box"></i> Манипулятор (КМУ)</td>
+            <td><strong>от 3 200 руб</strong></td>
+            <td>от 22 000 руб</td>
+            <td>4 часа</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-truck"></i> Самосвал</td>
+            <td><strong>от 2 500 руб</strong></td>
+            <td>от 18 000 руб</td>
+            <td>4 часа</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-person-digging"></i> Автовышка (АГП)</td>
+            <td><strong>от 2 500 руб</strong></td>
+            <td>от 18 000 руб</td>
+            <td>4 часа</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-road"></i> Бульдозер</td>
+            <td><strong>от 4 000 руб</strong></td>
+            <td>от 28 000 руб</td>
+            <td>8 часов</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="prices__factors">
+      <h3>Что влияет на итоговую цену</h3>
+      <div class="prices__factors-grid">
+        <div class="factor"><i class="fas fa-wrench"></i><span>Тип и модель техники</span></div>
+        <div class="factor"><i class="fas fa-clock"></i><span>Почасовая или посменная оплата</span></div>
+        <div class="factor"><i class="fas fa-location-dot"></i><span>Удалённость объекта (за МКАД от 50 руб/км)</span></div>
+        <div class="factor"><i class="fas fa-moon"></i><span>Ночная работа +20–30%</span></div>
+        <div class="factor"><i class="fas fa-bolt"></i><span>Срочная подача</span></div>
+        <div class="factor"><i class="fas fa-file-invoice-dollar"></i><span>НДС / без НДС</span></div>
+      </div>
+    </div>
+
+    <div class="section-cta">
+      <p>Отправьте заявку — менеджер посчитает точную стоимость за 15 минут</p>
+      <a href="#callback-form" class="btn btn--accent scroll-to">Получить расчёт бесплатно</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ADVANTAGES ========== -->
+<section class="advantages section" id="advantages">
+  <div class="container">
+    <div class="section-head">
+      <h2>Почему нас выбирают строительные компании</h2>
+    </div>
+    <div class="advantages__grid">
+      <div class="adv-card">
+        <div class="adv-card__icon"><i class="fas fa-wrench"></i></div>
+        <h3>Исправная техника</h3>
+        <p>Регулярное ТО, замена расходников по графику. Техника выходит на объект готовой — без поломок на полпути.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-card__icon"><i class="fas fa-file-signature"></i></div>
+        <h3>Договор всегда</h3>
+        <p>Фиксируем объём работ, стоимость и сроки до выезда. Никаких устных договорённостей и «по факту».</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-card__icon"><i class="fas fa-hard-hat"></i></div>
+        <h3>Опытные операторы</h3>
+        <p>Операторы с допуском Ростехнадзора, стаж от 5 лет. Знают объект, работают быстро и аккуратно.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-card__icon"><i class="fas fa-bolt"></i></div>
+        <h3>Быстрая подача</h3>
+        <p>По Москве — от 2 часов с момента подтверждения. По области — в день обращения. Работаем 24/7.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-card__icon"><i class="fas fa-building"></i></div>
+        <h3>Юрлица и физлица</h3>
+        <p>Закрывающие документы для бухгалтерии: акты, счета, УПД. Работаем с НДС и без НДС.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-card__icon"><i class="fas fa-tag"></i></div>
+        <h3>Прозрачные цены</h3>
+        <p>Тариф фиксируется в договоре. Надбавки — только те, о которых договорились. Счёт без сюрпризов.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOW IT WORKS ========== -->
+<section class="how section section--dark" id="how">
+  <div class="container">
+    <div class="section-head section-head--light">
+      <h2>Как оформить аренду спецтехники</h2>
+      <p>От заявки до выхода техники на объект — без лишних согласований.</p>
+    </div>
+    <div class="how__steps">
+      <div class="step">
+        <div class="step__num">01</div>
+        <div class="step__body">
+          <h3>Оставляете заявку</h3>
+          <p>По телефону, через форму на сайте, WhatsApp или Telegram. Работаем круглосуточно.</p>
+        </div>
+      </div>
+      <div class="step__arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="step">
+        <div class="step__num">02</div>
+        <div class="step__body">
+          <h3>Менеджер уточняет задачу</h3>
+          <p>Звоним в течение 5 минут. Уточняем объём работ, адрес, сроки, требования к технике.</p>
+        </div>
+      </div>
+      <div class="step__arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="step">
+        <div class="step__num">03</div>
+        <div class="step__body">
+          <h3>Подбираем технику и считаем стоимость</h3>
+          <p>Называем точную цену без «зависит от» и «посмотрим». Подбираем нужную единицу из парка.</p>
+        </div>
+      </div>
+      <div class="step__arrow d-none-mobile"><i class="fas fa-chevron-right"></i></div>
+      <div class="step">
+        <div class="step__num">04</div>
+        <div class="step__body">
+          <h3>Подписываем договор</h3>
+          <p>Офлайн или онлайн (ЭДО). Фиксируем: технику, оператора, время, стоимость.</p>
+        </div>
+      </div>
+      <div class="step__arrow d-none-mobile"><i class="fas fa-chevron-right"></i></div>
+      <div class="step">
+        <div class="step__num">05</div>
+        <div class="step__body">
+          <h3>Подаём технику на объект</h3>
+          <p>Техника приезжает в согласованное время. Оператор готов к работе.</p>
+        </div>
+      </div>
+      <div class="step__arrow d-none-mobile"><i class="fas fa-chevron-right"></i></div>
+      <div class="step">
+        <div class="step__num">06</div>
+        <div class="step__body">
+          <h3>Выполняем работы. Закрываем документы</h3>
+          <p>После завершения — акт выполненных работ, счёт, УПД. Всё для бухгалтерии.</p>
+        </div>
+      </div>
+    </div>
+    <div class="section-cta section-cta--center">
+      <a href="#callback-form" class="btn btn--accent scroll-to">Оставить заявку — перезвоним за 5 минут</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT / TRUST ========== -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <h2>О компании</h2>
+      <p>Работаем с 2012 года. Техника в собственности — никакого субподряда.</p>
+    </div>
+
+    <div class="about__text">
+      <p>Обслуживаем строительные компании, девелоперов, дорожные организации и частных заказчиков по всей Москве и Московской области. Страховка ОСАГО и КАСКО на весь парк. Операторы с удостоверениями Ростехнадзора.</p>
+    </div>
+
+    <div class="docs">
+      <h3>Документы и допуски</h3>
+      <div class="docs__grid">
+        <div class="doc-item"><i class="fas fa-certificate"></i><span>Свидетельство о регистрации юридического лица</span></div>
+        <div class="doc-item"><i class="fas fa-id-card"></i><span>Допуски операторов Ростехнадзора</span></div>
+        <div class="doc-item"><i class="fas fa-shield-halved"></i><span>ОСАГО и КАСКО на всю технику</span></div>
+        <div class="doc-item"><i class="fas fa-clipboard-list"></i><span>Журнал ТО на каждую единицу парка</span></div>
+        <div class="doc-item"><i class="fas fa-file-contract"></i><span>Договор страхования гражданской ответственности</span></div>
+        <div class="doc-item"><i class="fas fa-handshake"></i><span>Договор и закрывающие документы по каждому выезду</span></div>
+      </div>
+    </div>
+
+    <!-- REVIEWS -->
+    <div class="reviews" id="reviews">
+      <h3>Отзывы клиентов</h3>
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Брали экскаватор на котлован под ИЖС в Подмосковье. Приехали вовремя, без опозданий. Оператор справился быстрее, чем планировали. Документы оформили без лишней беготни.»</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">А</div>
+            <div>
+              <strong>Андрей К.</strong>
+              <span>ИП, Красногорск</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Работаем с этой компанией второй год. Берём самосвалы и экскаватор. Техника всегда исправная, операторы знают дело. Важно, что всегда дают закрывающие документы — с бухгалтерией никаких проблем.»</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">С</div>
+            <div>
+              <strong>Сергей М.</strong>
+              <span>Прораб, ГК СтройМосква</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Нужен был манипулятор срочно, в воскресенье. Позвонил в 22:00 — к 8 утра машина была на объекте. Вот это сервис. Однозначно буду обращаться ещё.»</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">Д</div>
+            <div>
+              <strong>Дмитрий Л.</strong>
+              <span>Частный заказчик, Балашиха</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GEOGRAPHY ========== -->
+<section class="geography section section--gray" id="geography">
+  <div class="container">
+    <div class="section-head">
+      <h2>Работаем по всей Москве и Московской области</h2>
+      <p>Подача по Москве — без доплаты. За МКАД — от 50 руб/км.</p>
+    </div>
+    <div class="geography__inner">
+      <div class="geography__info">
+        <h3>Зона обслуживания</h3>
+        <p>Подаём технику во все районы Москвы: ЦАО, ЗАО, САО, ВАО, ЮВАО, ЮАО, ЮЗАО, СЗАО, СВАО, НАО, ЗеленАО.</p>
+        <p>Работаем по всему Подмосковью — доставка рассчитывается по маршруту от МКАД.</p>
+        <div class="geo-cities">
+          <span>Химки</span><span>Балашиха</span><span>Подольск</span>
+          <span>Красногорск</span><span>Одинцово</span><span>Люберцы</span>
+          <span>Мытищи</span><span>Королёв</span><span>Серпухов</span>
+          <span>Коломна</span><span>Раменское</span><span>Дмитров</span>
+          <span>Клин</span><span>Щёлково</span><span>Электросталь</span>
+        </div>
+        <a href="#callback-form" class="btn btn--accent scroll-to">Уточнить стоимость подачи</a>
+      </div>
+      <div class="geography__map">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A&amp;source=constructor&amp;ll=37.617700%2C55.755800&amp;z=10"
+          width="100%"
+          height="380"
+          frameborder="0"
+          allowfullscreen="true"
+          style="border-radius: 12px;"
+          loading="lazy"
+          title="Карта зоны обслуживания">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section class="faq section" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <h2>Часто задаваемые вопросы</h2>
+    </div>
+    <div class="faq__list" id="faqList">
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Какой минимальный заказ?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>Зависит от техники. Для экскаватора-погрузчика, манипулятора, самосвала — минимум <strong>4 часа</strong>. Для гусеничного экскаватора, автокрана и бульдозера — <strong>смена 8 часов</strong>. Уточните при заявке — иногда делаем исключения для постоянных клиентов.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Работаете ли вы ночью?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>Да, работаем круглосуточно. Ночной коэффициент — <strong>20–30%</strong> к дневному тарифу. Заявки принимаем 24/7 — по телефону, WhatsApp и Telegram.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Можно ли арендовать технику с оператором?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>Да. Все машины предоставляются с опытным оператором — это включено в базовый тариф. Самовывоза техники без экипажа нет.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Работаете ли с НДС?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>Работаем с НДС и без НДС — зависит от вашего юридического лица. Выставляем счета, акты, УПД. Уточните при оформлении договора.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Как быстро подаёте технику?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>По Москве — от <strong>2 часов</strong> с момента подтверждения заявки. По области — как правило, <strong>в день обращения</strong>. При наличии свободной единицы в парке — быстрее.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Нужна ли предоплата?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>Для новых клиентов — частичная предоплата <strong>30–50%</strong>. Для постоянных — по договорённости. Все условия фиксируются в договоре.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Какие документы нужны для аренды?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>Для <strong>юрлиц и ИП</strong> — реквизиты, контактное лицо, адрес объекта. Для <strong>физлиц</strong> — паспортные данные. Договор оформляем быстро, работаем через ЭДО.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q">
+          Есть ли подача за МКАД?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq__a">
+          <p>Да, работаем по всей Московской области. Стоимость подачи — от <strong>50 руб/км</strong> от Москвы. Точную сумму считаем при оформлении заявки.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT FORM ========== -->
+<section class="contact-form section section--dark" id="order">
+  <div class="container">
+    <div class="contact-form__inner">
+      <div class="contact-form__text">
+        <h2>Оставьте заявку</h2>
+        <p>Уточним задачу, подберём технику, назовём цену без обязательств.</p>
+        <ul class="contact-form__promises">
+          <li><i class="fas fa-clock"></i> Перезвоним за 5 минут</li>
+          <li><i class="fas fa-file-contract"></i> Договор на каждый выезд</li>
+          <li><i class="fas fa-moon"></i> Принимаем заявки 24/7</li>
+          <li><i class="fas fa-tag"></i> Цена без обязательств</li>
+        </ul>
+        <div class="contact-form__direct">
+          <a href="tel:+74951234567" class="btn btn--light"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+          <a href="https://wa.me/74951234567" class="btn btn--whatsapp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+      <form class="form form--dark" id="orderForm" novalidate>
+        <div class="form__group">
+          <label>Ваше имя</label>
+          <input type="text" name="name" placeholder="Иван Иванов" />
+        </div>
+        <div class="form__group">
+          <label>Телефон <span class="req">*</span></label>
+          <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required />
+        </div>
+        <div class="form__group">
+          <label>Тип техники</label>
+          <select name="tech">
+            <option value="">— Выберите технику —</option>
+            <option>Экскаватор гусеничный</option>
+            <option>Экскаватор-погрузчик</option>
+            <option>Мини-экскаватор</option>
+            <option>Автокран</option>
+            <option>Манипулятор (КМУ)</option>
+            <option>Самосвал</option>
+            <option>Фронтальный погрузчик</option>
+            <option>Бульдозер</option>
+            <option>Автовышка (АГП)</option>
+            <option>Ямобур</option>
+            <option>Трал</option>
+            <option>Илосос</option>
+            <option>Другое</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label>Комментарий</label>
+          <textarea name="comment" placeholder="Кратко опишите задачу: объём, сроки, адрес объекта" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn--accent btn--full">
+          <i class="fas fa-paper-plane"></i> Отправить заявку
+        </button>
+        <p class="form__agree form__agree--light">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+        <div class="form__success" id="orderFormSuccess" style="display:none">
+          <i class="fas fa-circle-check"></i>
+          <h3>Заявка принята!</h3>
+          <p>Перезвоним за 5 минут.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACTS ========== -->
+<section class="contacts section" id="contacts">
+  <div class="container">
+    <div class="section-head">
+      <h2>Контакты</h2>
+    </div>
+    <div class="contacts__grid">
+      <div class="contacts__info">
+        <div class="contact-block">
+          <h3><i class="fas fa-phone"></i> Телефон</h3>
+          <a href="tel:+74951234567" class="contact-block__main">+7 (495) 123-45-67</a>
+          <p>Работаем 24/7, без выходных</p>
+        </div>
+        <div class="contact-block">
+          <h3><i class="fab fa-whatsapp"></i> WhatsApp</h3>
+          <a href="https://wa.me/74951234567" target="_blank" rel="noopener" class="contact-block__main">+7 (495) 123-45-67</a>
+        </div>
+        <div class="contact-block">
+          <h3><i class="fab fa-telegram"></i> Telegram</h3>
+          <a href="https://t.me/spectehmsk" target="_blank" rel="noopener" class="contact-block__main">@spectehmsk</a>
+        </div>
+        <div class="contact-block">
+          <h3><i class="fas fa-envelope"></i> Email</h3>
+          <a href="mailto:info@spectehmsk.ru" class="contact-block__main">info@spectehmsk.ru</a>
+        </div>
+        <div class="contact-block">
+          <h3><i class="fas fa-location-dot"></i> Адрес офиса</h3>
+          <p class="contact-block__main">г. Москва, ул. Строителей, д. 12</p>
+          <p>Приём документов: пн–пт 9:00–18:00</p>
+        </div>
+        <div class="contact-block">
+          <h3><i class="fas fa-clock"></i> Режим работы</h3>
+          <p><strong>Приём заявок:</strong> 24/7, без выходных</p>
+          <p><strong>Офис:</strong> пн–пт 9:00–18:00</p>
+        </div>
+      </div>
+      <div class="contacts__map">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A&amp;source=constructor&amp;ll=37.617700%2C55.755800&amp;z=13"
+          width="100%"
+          height="400"
+          frameborder="0"
+          allowfullscreen="true"
+          style="border-radius: 12px;"
+          loading="lazy"
+          title="Расположение офиса СпецТехМосква">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__logo">
+      <a href="/" class="header__logo">
+        <span class="logo-icon"><i class="fas fa-truck-pickup"></i></span>
+        <span class="logo-text">СпецТех<span>Москва</span></span>
+      </a>
+      <p>Аренда спецтехники в Москве и Московской области с 2012 года.</p>
+    </div>
+    <div class="footer__nav">
+      <h4>Каталог</h4>
+      <a href="pages/ekskavator.html">Аренда экскаватора</a>
+      <a href="pages/avtokran.html">Аренда автокрана</a>
+      <a href="pages/manipulyator.html">Аренда манипулятора</a>
+      <a href="#catalog" class="scroll-to">Экскаватор-погрузчик</a>
+      <a href="#catalog" class="scroll-to">Самосвал</a>
+      <a href="#catalog" class="scroll-to">Автовышка</a>
+    </div>
+    <div class="footer__nav">
+      <h4>Информация</h4>
+      <a href="#about" class="scroll-to">О компании</a>
+      <a href="#prices" class="scroll-to">Цены</a>
+      <a href="#faq" class="scroll-to">FAQ</a>
+      <a href="#contacts" class="scroll-to">Контакты</a>
+      <a href="#">Политика конфиденциальности</a>
+    </div>
+    <div class="footer__contact">
+      <h4>Связаться</h4>
+      <a href="tel:+74951234567"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+      <a href="https://wa.me/74951234567" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://t.me/spectehmsk" target="_blank" rel="noopener"><i class="fab fa-telegram"></i> Telegram</a>
+      <a href="mailto:info@spectehmsk.ru"><i class="fas fa-envelope"></i> info@spectehmsk.ru</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>© 2024 СпецТехМосква. Все права защищены.</p>
+      <p>Москва и Московская область. Работаем 24/7.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== MOBILE STICKY BAR ========== -->
+<div class="sticky-bar" id="stickyBar">
+  <a href="tel:+74951234567" class="sticky-bar__btn sticky-bar__btn--call">
+    <i class="fas fa-phone"></i>
+    <span>Позвонить</span>
+  </a>
+  <a href="https://wa.me/74951234567" class="sticky-bar__btn sticky-bar__btn--wa" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i>
+    <span>WhatsApp</span>
+  </a>
+  <a href="#callback-form" class="sticky-bar__btn sticky-bar__btn--form scroll-to">
+    <i class="fas fa-pen-to-square"></i>
+    <span>Заявка</span>
+  </a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
