@@ -1,0 +1,122 @@
+/* ============================================================
+   СпецТехМосква — responsive.css
+   ============================================================ */
+
+/* ---- Tablet: 1024px ---- */
+@media (max-width: 1024px) {
+  .hero__inner { grid-template-columns: 1fr; gap: 40px; }
+  .hero__form-wrap { max-width: 520px; }
+
+  .footer__inner { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .footer__logo { grid-column: 1 / -1; }
+
+  .how__steps { justify-content: center; }
+  .step { min-width: 140px; }
+  .step__arrow { padding-top: 40px; }
+  .d-none-mobile { display: none; }
+
+  .contact-form__inner { gap: 40px; }
+  .geography__inner { grid-template-columns: 1fr; }
+  .contacts__grid { grid-template-columns: 1fr; }
+}
+
+/* ---- Mobile: 768px ---- */
+@media (max-width: 768px) {
+  /* Layout */
+  .section { padding: 56px 0; }
+  .section-head { margin-bottom: 32px; }
+
+  /* Header */
+  .header__nav { display: none; }
+  .header__phone { display: none; }
+  .header__actions .btn--sm { display: none; }
+  .burger { display: flex; margin-left: auto; }
+
+  /* Hero */
+  .hero { padding: 48px 0 56px; min-height: unset; }
+  .hero__inner { grid-template-columns: 1fr; gap: 32px; }
+  .hero__title { font-size: 28px; }
+  .hero__sub { font-size: 15px; }
+  .hero__cta-group { flex-direction: column; }
+  .hero__cta-group .btn { justify-content: center; }
+  .hero__form { padding: 24px 20px; }
+  .hero__form-wrap { max-width: 100%; }
+
+  /* Trust bar */
+  .trust-bar__inner { gap: 8px; }
+  .trust-bar__num { font-size: 24px; }
+
+  /* Catalog */
+  .catalog__filters { gap: 6px; }
+  .filter-btn { padding: 7px 13px; font-size: 13px; }
+  .catalog__grid { grid-template-columns: 1fr; }
+  .catalog__grid .card { max-width: 480px; margin: 0 auto; width: 100%; }
+
+  /* Prices */
+  .prices__factors-grid { grid-template-columns: 1fr; }
+
+  /* Advantages */
+  .advantages__grid { grid-template-columns: 1fr; }
+
+  /* How */
+  .how__steps { flex-direction: column; align-items: center; gap: 0; }
+  .step { min-width: unset; width: 100%; max-width: 360px; text-align: left; padding: 20px 16px; }
+  .step__arrow { display: none; }
+  .step__num { font-size: 28px; }
+
+  /* About / docs */
+  .docs__grid { grid-template-columns: 1fr; }
+  .reviews__grid { grid-template-columns: 1fr; }
+
+  /* Contact form */
+  .contact-form__inner { grid-template-columns: 1fr; gap: 32px; }
+  .contact-form__text h2 { font-size: 24px; }
+
+  /* Footer */
+  .footer__inner { grid-template-columns: 1fr; gap: 28px; padding: 40px 20px 32px; }
+  .footer__bottom .container { flex-direction: column; gap: 4px; text-align: center; }
+
+  /* FAQ */
+  .faq__q { font-size: 15px; padding: 15px 16px; }
+
+  /* Sticky bar — SHOW on mobile */
+  .sticky-bar {
+    display: flex;
+    gap: 6px;
+  }
+
+  /* Add bottom padding to body so content doesn't hide behind sticky bar */
+  body { padding-bottom: 80px; }
+}
+
+/* ---- Small mobile: 480px ---- */
+@media (max-width: 480px) {
+  .container { padding: 0 16px; }
+  .hero__title { font-size: 24px; }
+  .hero__features li { font-size: 14px; }
+  .section-head h2 { font-size: 22px; }
+  .trust-bar__inner { gap: 4px 16px; }
+  .trust-bar__num { font-size: 22px; }
+  .trust-bar__label { font-size: 12px; }
+  .header__inner { height: 58px; }
+  .catalog__grid { grid-template-columns: 1fr; }
+  .btn { font-size: 14px; padding: 11px 18px; }
+  .card__actions { flex-direction: column; }
+  .card__actions .btn { justify-content: center; }
+}
+
+/* ---- Landscape mobile ---- */
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero { min-height: unset; padding: 40px 0 48px; }
+}
+
+/* ---- Desktop sticky bar — HIDE ---- */
+@media (min-width: 769px) {
+  .sticky-bar { display: none !important; }
+}
+
+/* ---- Print ---- */
+@media print {
+  .header, .sticky-bar, .hero__form-wrap, .contact-form { display: none; }
+  .section { padding: 24px 0; }
+}
