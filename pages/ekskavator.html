@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Аренда экскаватора в Москве и Московской области. Гусеничный экскаватор с оператором. От 3 500 руб/час. Подача в день обращения. Договор, НДС. Звоните 24/7." />
+  <title>Аренда экскаватора в Москве — от 3 500 руб/час | СпецТехМосква</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+  <style>
+    .page-hero { background: linear-gradient(135deg, #0F2540 60%, #1B3A5C); padding: 64px 0; color: #fff; }
+    .breadcrumb { display: flex; gap: 8px; align-items: center; font-size: 13px; color: rgba(255,255,255,.55); margin-bottom: 20px; }
+    .breadcrumb a { color: rgba(255,255,255,.55); transition: color .2s; }
+    .breadcrumb a:hover { color: #fff; }
+    .breadcrumb i { font-size: 10px; }
+    .page-hero h1 { font-size: clamp(28px, 4vw, 44px); font-weight: 800; margin-bottom: 16px; }
+    .page-hero p { font-size: 17px; color: rgba(255,255,255,.75); max-width: 600px; line-height: 1.65; margin-bottom: 28px; }
+    .page-hero__grid { display: grid; grid-template-columns: 1fr 380px; gap: 48px; align-items: center; }
+    .page-hero__badges { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+    .badge { display: inline-flex; align-items: center; gap: 7px; padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; }
+    .badge--green { background: rgba(45,155,82,.2); color: #6EE7A0; border: 1px solid rgba(45,155,82,.3); }
+    .badge--orange { background: rgba(232,93,4,.2); color: #FDB27A; border: 1px solid rgba(232,93,4,.3); }
+    .badge--blue { background: rgba(45,106,159,.3); color: #93C5FD; border: 1px solid rgba(45,106,159,.4); }
+    .spec-table { background: rgba(255,255,255,.06); border-radius: 12px; padding: 20px; }
+    .spec-table h3 { font-size: 15px; font-weight: 700; color: rgba(255,255,255,.7); margin-bottom: 14px; text-transform: uppercase; letter-spacing: .05em; }
+    .spec-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: 14px; }
+    .spec-row:last-child { border-bottom: none; }
+    .spec-row span:first-child { color: rgba(255,255,255,.55); }
+    .spec-row strong { color: #fff; }
+    .page-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+    .content-section { padding: 72px 0; }
+    .content-section h2 { font-size: 28px; font-weight: 800; color: var(--primary); margin-bottom: 16px; }
+    .content-section h3 { font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 12px; }
+    .content-section p { font-size: 15px; color: var(--text-muted); line-height: 1.7; margin-bottom: 16px; }
+    .work-types { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin: 24px 0; }
+    .work-type { padding: 18px; background: var(--bg); border-radius: var(--radius); border: 1px solid var(--border); }
+    .work-type i { font-size: 20px; color: var(--accent); margin-bottom: 10px; }
+    .work-type h4 { font-size: 14px; font-weight: 700; color: var(--primary); margin-bottom: 6px; }
+    .work-type p { font-size: 13px; margin-bottom: 0; }
+    .models-table { width: 100%; border-collapse: collapse; margin: 20px 0; box-shadow: var(--shadow); border-radius: var(--radius-lg); overflow: hidden; }
+    .models-table th { background: var(--primary); color: #fff; padding: 14px 16px; font-size: 13px; text-align: left; }
+    .models-table td { padding: 13px 16px; border-bottom: 1px solid var(--border); font-size: 14px; background: var(--white); }
+    .models-table tr:hover td { background: var(--bg); }
+    .models-table tr:last-child td { border-bottom: none; }
+    .faq__list { max-width: 100%; }
+    @media (max-width: 768px) {
+      .page-hero__grid { grid-template-columns: 1fr; }
+      .spec-table { margin-top: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="../index.html" class="header__logo">
+      <span class="logo-icon"><i class="fas fa-truck-pickup"></i></span>
+      <span class="logo-text">СпецТех<span>Москва</span></span>
+    </a>
+    <nav class="header__nav">
+      <a href="../index.html#catalog">Каталог</a>
+      <a href="../index.html#prices">Цены</a>
+      <a href="../index.html#how">Как работаем</a>
+      <a href="../index.html#about">О компании</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contacts">Контакты</a>
+    </nav>
+    <div class="header__actions">
+      <a href="tel:+74951234567" class="header__phone"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+      <a href="#order-form" class="btn btn--accent btn--sm scroll-to">Оставить заявку</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+<nav class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav__close" id="mobileNavClose"><i class="fas fa-times"></i></button>
+  <a href="../index.html#catalog" class="mobile-nav__link">Каталог техники</a>
+  <a href="../index.html#prices" class="mobile-nav__link">Цены</a>
+  <a href="../index.html#how" class="mobile-nav__link">Как работаем</a>
+  <a href="../index.html#contacts" class="mobile-nav__link">Контакты</a>
+  <a href="tel:+74951234567" class="mobile-nav__phone"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+  <a href="#order-form" class="btn btn--accent mobile-nav__cta scroll-to">Оставить заявку</a>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">Главная</a>
+      <i class="fas fa-chevron-right"></i>
+      <a href="../index.html#catalog">Каталог</a>
+      <i class="fas fa-chevron-right"></i>
+      <span>Аренда экскаватора</span>
+    </div>
+    <div class="page-hero__grid">
+      <div>
+        <div class="page-hero__badges">
+          <span class="badge badge--green"><i class="fas fa-circle-check"></i> Есть в наличии</span>
+          <span class="badge badge--orange"><i class="fas fa-bolt"></i> Подача от 2 часов</span>
+          <span class="badge badge--blue"><i class="fas fa-hard-hat"></i> С оператором</span>
+        </div>
+        <h1>Аренда экскаватора в Москве и Московской области</h1>
+        <p>Гусеничный экскаватор с опытным оператором для котлованов, траншей, демонтажа и планировки. Собственный парк — никакого субподряда. Работаем 24/7.</p>
+        <div class="page-cta">
+          <a href="#order-form" class="btn btn--accent scroll-to"><i class="fas fa-paper-plane"></i> Оставить заявку</a>
+          <a href="tel:+74951234567" class="btn btn--light"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+          <a href="https://wa.me/74951234567" class="btn btn--whatsapp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+      <div class="spec-table">
+        <h3>Основные параметры</h3>
+        <div class="spec-row"><span>Стоимость</span><strong>от 3 500 руб/час</strong></div>
+        <div class="spec-row"><span>Смена (8 ч)</span><strong>от 24 000 руб</strong></div>
+        <div class="spec-row"><span>Минимальный заказ</span><strong>8 часов (смена)</strong></div>
+        <div class="spec-row"><span>Объём ковша</span><strong>0.6 – 1.2 м³</strong></div>
+        <div class="spec-row"><span>Глубина копания</span><strong>до 6.5 м</strong></div>
+        <div class="spec-row"><span>Масса машины</span><strong>14 – 25 тонн</strong></div>
+        <div class="spec-row"><span>Оператор</span><strong>Включён в тариф</strong></div>
+        <div class="spec-row"><span>НДС</span><strong>С НДС и без НДС</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="container trust-bar__inner">
+    <div class="trust-bar__item"><span class="trust-bar__num">12+</span><span class="trust-bar__label">лет на рынке</span></div>
+    <div class="trust-bar__item"><span class="trust-bar__num">35+</span><span class="trust-bar__label">единиц в парке</span></div>
+    <div class="trust-bar__item"><span class="trust-bar__num">1 200+</span><span class="trust-bar__label">объектов сдано</span></div>
+    <div class="trust-bar__item"><span class="trust-bar__num">24/7</span><span class="trust-bar__label">режим работы</span></div>
+  </div>
+</div>
+
+<!-- WORK TYPES -->
+<section class="content-section">
+  <div class="container">
+    <h2>Какие работы выполняет экскаватор</h2>
+    <p>Гусеничный экскаватор — универсальная машина для большинства земляных и строительных задач. Работает на любых типах грунта, включая мёрзлый и каменистый.</p>
+    <div class="work-types">
+      <div class="work-type"><i class="fas fa-square-full"></i><h4>Копание котлованов</h4><p>Под фундаменты, подвалы, бассейны, паркинги. Любая глубина до 6.5 м.</p></div>
+      <div class="work-type"><i class="fas fa-minus"></i><h4>Траншеи под коммуникации</h4><p>Водопровод, канализация, кабель, газ. Точная геометрия стенок.</p></div>
+      <div class="work-type"><i class="fas fa-building"></i><h4>Демонтаж строений</h4><p>Разбор фундаментов, стен, кирпичных конструкций.</p></div>
+      <div class="work-type"><i class="fas fa-arrows-to-dot"></i><h4>Планировка площадок</h4><p>Выравнивание под строительство, благоустройство, парковку.</p></div>
+      <div class="work-type"><i class="fas fa-layer-group"></i><h4>Погрузка грунта</h4><p>Перемещение и погрузка грунта, щебня, строительного мусора в самосвалы.</p></div>
+      <div class="work-type"><i class="fas fa-tree"></i><h4>Расчистка территории</h4><p>Снос деревьев, пней, расчистка под застройку.</p></div>
+    </div>
+
+    <h2 style="margin-top: 48px;">Модели экскаваторов в парке</h2>
+    <p>Предоставляем технику ведущих производителей, прошедшую ТО и диагностику.</p>
+    <table class="models-table">
+      <thead>
+        <tr>
+          <th>Модель</th>
+          <th>Объём ковша</th>
+          <th>Глубина копания</th>
+          <th>Масса</th>
+          <th>Цена от (час)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Hyundai R140W / R170W</td><td>0.6 м³</td><td>5.7 м</td><td>14 т</td><td>3 500 руб</td></tr>
+        <tr><td>Komatsu PC200</td><td>0.8 м³</td><td>6.1 м</td><td>20 т</td><td>3 800 руб</td></tr>
+        <tr><td>Caterpillar 320 / 323</td><td>1.0 м³</td><td>6.4 м</td><td>22 т</td><td>4 200 руб</td></tr>
+        <tr><td>Hitachi ZX240</td><td>1.2 м³</td><td>6.5 м</td><td>25 т</td><td>4 500 руб</td></tr>
+      </tbody>
+    </table>
+
+    <div class="section-cta" style="margin-top: 32px;">
+      <p>Нужна конкретная модель? Уточните при заявке — подберём подходящую.</p>
+      <a href="#order-form" class="btn btn--accent scroll-to">Оставить заявку на экскаватор</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="content-section section--gray">
+  <div class="container">
+    <h2>Стоимость аренды экскаватора</h2>
+    <p>Итоговая цена зависит от модели, смены и удалённости объекта. Всё фиксируется в договоре до выезда.</p>
+    <div class="prices__table-wrap">
+      <table class="prices__table">
+        <thead><tr><th>Тариф</th><th>Стоимость</th><th>Что включено</th></tr></thead>
+        <tbody>
+          <tr><td>Почасовая оплата</td><td><strong>от 3 500 руб/ч</strong></td><td>Оператор, топливо</td></tr>
+          <tr><td>Дневная смена (8 ч)</td><td><strong>от 24 000 руб</strong></td><td>Оператор, топливо, документы</td></tr>
+          <tr><td>Ночная смена (+20%)</td><td><strong>от 28 800 руб</strong></td><td>Оператор, топливо, надбавка</td></tr>
+          <tr><td>Подача за МКАД</td><td><strong>от 50 руб/км</strong></td><td>Один конец от Москвы</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="prices__factors" style="margin-top: 24px;">
+      <h3>На что обратить внимание</h3>
+      <div class="prices__factors-grid">
+        <div class="factor"><i class="fas fa-clock"></i><span>Смена выгоднее почасовой на длинных задачах</span></div>
+        <div class="factor"><i class="fas fa-location-dot"></i><span>Подача за МКАД считается отдельно</span></div>
+        <div class="factor"><i class="fas fa-moon"></i><span>Ночной тариф: надбавка 20–30%</span></div>
+        <div class="factor"><i class="fas fa-file-invoice-dollar"></i><span>Работаем с НДС и без НДС</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Вопросы об аренде экскаватора</h2>
+    </div>
+    <div class="faq__list" id="faqList">
+      <div class="faq__item">
+        <button class="faq__q">Сколько стоит минимальная аренда экскаватора?<i class="fas fa-chevron-down"></i></button>
+        <div class="faq__a"><p>Минимальный заказ — <strong>смена 8 часов</strong>, от <strong>24 000 рублей</strong>. Включает оператора, топливо и документальное оформление.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q">Работает ли экскаватор в стеснённых условиях?<i class="fas fa-chevron-down"></i></button>
+        <div class="faq__a"><p>Гусеничный экскаватор требует достаточно места. Для работы в дворах, подвалах и узких участках рекомендуем <strong>мини-экскаватор</strong> — позвоните, подберём подходящую технику.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q">Как быстро приедет экскаватор на объект?<i class="fas fa-chevron-down"></i></button>
+        <div class="faq__a"><p>По Москве — от <strong>2–4 часов</strong> с момента подтверждения заявки. По области — как правило, <strong>в день обращения</strong>.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q">Нужно ли оформлять пропуск в Москве?<i class="fas fa-chevron-down"></i></button>
+        <div class="faq__a"><p>Для въезда крупногабаритной техники в ряд районов Москвы требуется пропуск. Помогаем с оформлением — уточните при заявке.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER FORM -->
+<section class="contact-form section section--dark" id="order-form">
+  <div class="container">
+    <div class="contact-form__inner">
+      <div class="contact-form__text">
+        <h2>Заказать экскаватор</h2>
+        <p>Оставьте заявку — перезвоним за 5 минут и уточним детали.</p>
+        <ul class="contact-form__promises">
+          <li><i class="fas fa-clock"></i> Перезвоним за 5 минут</li>
+          <li><i class="fas fa-file-contract"></i> Договор до выезда</li>
+          <li><i class="fas fa-moon"></i> Работаем 24/7</li>
+          <li><i class="fas fa-tag"></i> Точная цена без «зависит от»</li>
+        </ul>
+        <div class="contact-form__direct">
+          <a href="tel:+74951234567" class="btn btn--light"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+          <a href="https://wa.me/74951234567" class="btn btn--whatsapp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+      <form class="form form--dark" id="orderForm" novalidate>
+        <div class="form__group"><label>Ваше имя</label><input type="text" name="name" placeholder="Иван Иванов" /></div>
+        <div class="form__group"><label>Телефон <span class="req">*</span></label><input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required /></div>
+        <div class="form__group">
+          <label>Модель экскаватора</label>
+          <select name="tech">
+            <option value="">— Не важно, подберите сами —</option>
+            <option>Hyundai R140W / R170W</option>
+            <option>Komatsu PC200</option>
+            <option>Caterpillar 320 / 323</option>
+            <option>Hitachi ZX240</option>
+          </select>
+        </div>
+        <div class="form__group"><label>Комментарий</label><textarea name="comment" placeholder="Тип работы, адрес объекта, сроки" rows="3"></textarea></div>
+        <button type="submit" class="btn btn--accent btn--full"><i class="fas fa-paper-plane"></i> Отправить заявку</button>
+        <p class="form__agree form__agree--light">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+        <div class="form__success" id="orderFormSuccess" style="display:none">
+          <i class="fas fa-circle-check"></i><h3>Заявка принята!</h3><p>Перезвоним за 5 минут.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__logo">
+      <a href="../index.html" class="header__logo"><span class="logo-icon"><i class="fas fa-truck-pickup"></i></span><span class="logo-text">СпецТех<span>Москва</span></span></a>
+      <p>Аренда спецтехники в Москве и МО с 2012 года.</p>
+    </div>
+    <div class="footer__nav">
+      <h4>Каталог</h4>
+      <a href="ekskavator.html">Аренда экскаватора</a>
+      <a href="avtokran.html">Аренда автокрана</a>
+      <a href="manipulyator.html">Аренда манипулятора</a>
+      <a href="../index.html#catalog">Весь каталог</a>
+    </div>
+    <div class="footer__nav">
+      <h4>Компания</h4>
+      <a href="../index.html#about">О нас</a>
+      <a href="../index.html#prices">Цены</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contacts">Контакты</a>
+    </div>
+    <div class="footer__contact">
+      <h4>Связаться</h4>
+      <a href="tel:+74951234567"><i class="fas fa-phone"></i> +7 (495) 123-45-67</a>
+      <a href="https://wa.me/74951234567" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://t.me/spectehmsk" target="_blank" rel="noopener"><i class="fab fa-telegram"></i> Telegram</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container"><p>© 2024 СпецТехМосква. Все права защищены.</p><p>Работаем 24/7</p></div>
+  </div>
+</footer>
+
+<div class="sticky-bar" id="stickyBar">
+  <a href="tel:+74951234567" class="sticky-bar__btn sticky-bar__btn--call"><i class="fas fa-phone"></i><span>Позвонить</span></a>
+  <a href="https://wa.me/74951234567" class="sticky-bar__btn sticky-bar__btn--wa" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+  <a href="#order-form" class="sticky-bar__btn sticky-bar__btn--form scroll-to"><i class="fas fa-pen-to-square"></i><span>Заявка</span></a>
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
