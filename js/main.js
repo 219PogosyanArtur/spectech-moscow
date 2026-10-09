@@ -1,5 +1,5 @@
 /* ============================================================
-   СпецТехМосква — main.js
+   АВ-СПЕЦТЕХСТРОЙ — main.js
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -219,3 +219,22 @@ document.addEventListener('DOMContentLoaded', () => {
   updateActiveNav();
 
 });
+
+/* ===== v2: "Заказать" buttons prefill the order form ===== */
+(function () {
+  var orderService = document.getElementById('orderService');
+  var select = document.querySelector('#orderForm select[name="tech"]');
+  document.querySelectorAll('.order-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var name = btn.getAttribute('data-service') || '';
+      if (orderService) orderService.value = name;
+      if (select) {
+        var found = false;
+        Array.prototype.forEach.call(select.options, function (o) {
+          if (o.value === name) { select.value = name; found = true; }
+        });
+        if (!found) select.value = 'Другое';
+      }
+    });
+  });
+})();
