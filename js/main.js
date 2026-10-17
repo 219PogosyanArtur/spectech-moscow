@@ -143,6 +143,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* ---- Form submission ---- */
+  // Адрес Worker для приёма заявок. Вставьте свой после деплоя (см. инструкцию).
+  const LEADS_API = 'https://spectech-leads.arturpog2003.workers.dev/api/lead';
+
   function handleForm(formId, successId) {
     const form = document.getElementById(formId);
     const successEl = document.getElementById(successId);
@@ -160,16 +163,31 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Simulate submit (replace with real endpoint)
       const btn = form.querySelector('button[type="submit"]');
       const originalText = btn.innerHTML;
       btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Отправляем...';
       btn.disabled = true;
 
-      setTimeout(() => {
-        form.style.display = 'none';
-        if (successEl) successEl.style.display = 'flex';
-      }, 900);
+      const payload = Object.fromEntries(new FormData(form).entries());
+      payload.page = location.href;
+      payload.source = formId;
+
+      fetch(LEADS_API, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+        .then(r => r.json())
+        .then(d => {
+          if (!d.ok) throw new Error('rejected');
+          form.style.display = 'none';
+          if (successEl) successEl.style.display = 'flex';
+        })
+        .catch(() => {
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+          alert('Не удалось отправить заявку. Позвоните нам: +7 (964) 186-69-66');
+        });
     });
   }
 
